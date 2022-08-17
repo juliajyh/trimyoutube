@@ -22,7 +22,7 @@ TrimTube is a web application which allows user to fetch video or a playlist usi
 
 [https://trimtube.vercel.app/](https://trimtube.vercel.app/)
 
-# 🎉 **Features**
+# 🎉 **Existing Features**
 
 TrimTube provides multiple features like:
 
@@ -33,96 +33,10 @@ TrimTube provides multiple features like:
 - **Sort**: Sort a playlist created in the app based on the `title` or `publishedDate` of the videos.
 - **Repeat**: Repeat a single video or the entire playlist or just play through all the videos in the playlist once.
 
-# 🧐 **How to use TrimTube?**
-
-## Search Video
-
-<p>
-    There are multiple ways to search a video in the app.
-    <ul>
-        <li>
-        Search with pasted <code>YouTube Video URL</code> or a
-        <code>YouTube Video ID</code> to find the relevant YouTube
-        video(s).
-        </li>
-        <li>
-        Visit <code>https://trimtube.vercel.app/video?v=ID</code> page replacing <code>ID</code> with <code>YouTube Video ID</code> 
-        to find the relevant YouTube video(s).
-        ex - <code>https://trimtube.vercel.app/video?v=a6Ur326zJtM</code>
-        </li>
-    </ul>
- </p>
-
-[Watch Demo - Search Video](https://vimeo.com/676948611)
-
-## Trim Video
-
-<p>
-    Click on <code>Trim Video</code> button on <code>Video</code> page and use the trim controls to input the <code>Start</code> and <code>End</code> times in <code>Minutes</code> and <code>Seconds</code> to <code>Trim</code> the video which will loop the video between this interval indefinitely.
-</p>
-
-[Watch Demo - Trim Video](https://vimeo.com/676948653)
-
-## Create Playlist
-
-<p>
-    There are multiple ways to create a playlist in the app.
-    <ul>
-      <li>
-      <p>
-      Search with pasted <code>YouTube Playlist URL</code> or a
-      <code>YouTube Playlist ID</code> to find the relevant YouTube
-      video(s).
-      </p>
-      <p>
-      Create a playlist in the app using the <code>Create Playlist</code> button with an ability to edit the name of the created playlist later.
-      </p>
-      </li>
-      <li>
-        On <code>Video</code> page, create a playlist in the modal when saving a video to a playlist.
-      </li>
-    </ul>
-  </p>
-
-[Watch Demo - Create Playlist](https://vimeo.com/676948508)
-
-## Playlist Controls
-
-<p>
-        <ul>
-          <li>
-            <strong>Repeat</strong> a video or the playlist.
-          </li>
-          <li>
-            <strong>Shuffle</strong> the playlist
-          </li>
-          <li>
-            <strong>Sort</strong> the playlist based on the <code>Title</code> or <code>Date</code>.
-          </li>
-          <li>
-            <strong>Fetch</strong> the remote YouTube playlist and merge any new videos with the local playlist.
-            <blockquote>Note: this option is available only on the playlists that were created using the YouTube playlist URL or ID</blockquote>
-          </li>
-        </ul>
-      </p>
-
-[Watch Demo - Playlist Controls](https://vimeo.com/676948539)
-
-## Share
-
-<p>
-  Share a trimmed <code>Video</code> or a created <code>Playlist</code>
-  in the app on multiple platforms like
-  <code>Facebook</code>, <code>Twitter</code>, <code>LinkedIn</code> and
-  <code>WhatsApp</code>.
-</p>
-<p style="text-align: center">OR</p>
-<p>
-  You can simply <code>Copy</code> the URL to share on other platforms
-  as well.
-</p>
-
-[Watch Demo - Share](https://vimeo.com/676948628)
+# **ToDo Features (Inspired by Youtube Clip)**
+- Automate the clipped segment based on current video progress instead of manual input
+- Render the slider that adjusts the selected section to clip
+- Implement the Share feature that shares the section starting from 0:0
 
 # 💻 Quick start
 
