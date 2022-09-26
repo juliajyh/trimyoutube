@@ -33,6 +33,8 @@ TrimTube provides multiple features like:
 - **Sort**: Sort a playlist created in the app based on the `title` or `publishedDate` of the videos.
 - **Repeat**: Repeat a single video or the entire playlist or just play through all the videos in the playlist once.
 
+--------------------------------------------------------------------------
+
 # **ToDo Features (Inspired by Youtube Clip)**
 - Automate the clipped segment based on current video progress instead of manual input
 - Render the slider that adjusts the selected section to clip
